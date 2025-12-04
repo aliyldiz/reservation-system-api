@@ -35,6 +35,9 @@ Proje, yazılımın katmanlar arasında temiz bir ayrımını sağlayan ve bağ�
     *   **Otomatik İptal:** 5 dakikalık hold süresi dolan bekleyen rezervasyonlar, arka plan servisi aracılığıyla otomatik olarak iptal edilir ve kapasite etkinliğe geri iade edilir.
 *   **Swagger UI:** API uç noktalarını keşfetmek ve test etmek için etkileşimli dokümantasyon arayüzü.
 
+<img width="374" height="851" alt="image" src="https://github.com/user-attachments/assets/c1f5b27f-a69f-4d3c-bd69-6e84db1840e8" />
+
+
 ## ⚙️ Kurulum
 
 ### Projenin Klonlanması
@@ -64,6 +67,10 @@ cd ReservationSystem
 *   **`POST /api/Reservations`**: Bir etkinlik için yeni bir rezervasyon talebi oluşturur (HOLD durumu).
 *   **`POST /api/Reservations/{id}/cancel`**: Belirli bir rezervasyon ID'sine göre rezervasyonu iptal eder.
 *   **`POST /api/Reservations/{id}/confirm`**: Beklemede (Pending) durumundaki bir rezervasyonu onaylar. Hold süresi dolmuş rezervasyonlar onaylanamaz.
+
+<img width="1228" height="708" alt="image" src="https://github.com/user-attachments/assets/b635ae47-f55c-4521-8d4c-e8a86bc09e44" />
+<img width="1212" height="328" alt="image" src="https://github.com/user-attachments/assets/4733476a-1b36-4123-aaa3-d5d80e2ae491" />
+
 
 ## 🕒 Rezervasyon Akışı Detayları (Hold, Confirm, Auto-Cancel)
 
